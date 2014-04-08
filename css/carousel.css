@@ -1,0 +1,262 @@
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+
+.miWidth{
+  width: 100%;
+}
+
+.carousel {
+  height: 150px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 150px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 150px;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 350px) {
+
+      .miWidth{
+        width: 100%;
+      }
+
+        .carousel {
+        height: 170px;
+      }
+      .carousel .item {
+        height: 170px;
+      }
+      .carousel-inner > .item > img {
+        height: 170px;
+      }
+  }
+
+  @media (min-width: 360px) {
+
+      .miWidth{
+        width: 100%;
+      }
+
+        .carousel {
+        height: 180px;
+      }
+      .carousel .item {
+        height: 180px;
+      }
+      .carousel-inner > .item > img {
+        height: 180px;
+      }
+  }
+
+  @media (min-width: 380px) {
+
+      .miWidth{
+        width: 100%;
+      }
+
+        .carousel {
+        height: 190px;
+      }
+      .carousel .item {
+        height: 190px;
+      }
+      .carousel-inner > .item > img {
+        height: 190px;
+      }
+  }
+
+@media (min-width: 400px) {
+
+      .miWidth{
+        width: 100%;
+      }
+
+        .carousel {
+        height: 200px;
+      }
+      .carousel .item {
+        height: 200px;
+      }
+      .carousel-inner > .item > img {
+        height: 200px;
+      }
+  }
+
+  @media (min-width: 420px) {
+
+      .miWidth{
+        width: 100%;
+      }
+
+        .carousel {
+        height: 210px;
+      }
+      .carousel .item {
+        height: 210px;
+      }
+      .carousel-inner > .item > img {
+        height: 210px;
+      }
+  }
+
+  @media (min-width: 440px) {
+
+      .miWidth{
+        width: 100%;
+      }
+
+        .carousel {
+        height: 220px;
+      }
+      .carousel .item {
+        height: 220px;
+      }
+      .carousel-inner > .item > img {
+        height: 220px;
+      }
+  }
+
+  @media (min-width: 460px) {
+
+      .miWidth{
+        width: 80%;
+      }
+
+        .carousel {
+        height: 230px;
+      }
+      .carousel .item {
+        height: 230px;
+      }
+      .carousel-inner > .item > img {
+        height: 230px;
+      }
+  }
+
+  @media (min-width: 480px) {
+
+      .miWidth{
+        width: 75%;
+      }
+
+        .carousel {
+        height: 240px;
+      }
+      .carousel .item {
+        height: 240px;
+      }
+      .carousel-inner > .item > img {
+        height: 240px;
+      }
+  }
+
+  @media (min-width: 500px) {
+
+      .miWidth{
+        width: 65%;
+      }
+
+        .carousel {
+        height: 250px;
+      }
+      .carousel .item {
+        height: 250px;
+      }
+      .carousel-inner > .item > img {
+        height: 250px;
+      }
+  }
+
+  @media (min-width: 600px) {
+
+      .miWidth{
+        width: 65%;
+      }
+
+        .carousel {
+        height: 260px;
+      }
+      .carousel .item {
+        height: 260px;
+      }
+      .carousel-inner > .item > img {
+        height: 260px;
+      }
+  }
+
+
+@media (min-width: 768px) {
+
+      .miWidth{
+        width: 65%;
+      }
+
+        .carousel {
+        height: 450px;
+      }
+      .carousel .item {
+        height: 450px;
+      }
+      .carousel-inner > .item > img {
+        height: 450px;
+      }
+  }
+
+}
